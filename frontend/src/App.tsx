@@ -1,11 +1,20 @@
 import NotificationButton from "./components/notificationButton"
-
+import Hearder from "./components/header"
+import SalesCard from "./components/salesCard"
+import './index.css'
 
 function App() {
 
-  return(<>
-  <h1>Ola aluno</h1>
-  <NotificationButton/>
+  return (<>
+    <Hearder />
+    <main>
+      <section id="sales">
+        <div className="dsmeta-container">
+          <SalesCard/>
+        </div>
+      </section>
+    </main>
+
   </>
   )
 }
