@@ -1,6 +1,6 @@
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/img/logo.svg';
 
-import './styles.css'
+import './styles.css';
 
 function Hearder() {
 
@@ -20,4 +20,4 @@ function Hearder() {
     )
 }
 
-export default Hearder
+export default Hearder;

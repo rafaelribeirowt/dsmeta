@@ -1,7 +1,7 @@
-import NotificationButton from "./components/notificationButton"
-import Hearder from "./components/header"
-import SalesCard from "./components/salesCard"
-import './index.css'
+import NotificationButton from "./components/notificationButton";
+import Hearder from "./components/header";
+import SalesCard from "./components/salesCard";
+import './index.css';
 
 function App() {
 
@@ -19,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
