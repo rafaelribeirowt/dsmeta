@@ -1,11 +1,11 @@
 export type sale = {
 
 
-    id: number, 
+    id: number,
     sellerName: string,
-    date: string, 
-    visited: number, 
-    deals: number, 
+    date: string,
+    visited: number,
+    deals: number,
     amount: number,
 
 
