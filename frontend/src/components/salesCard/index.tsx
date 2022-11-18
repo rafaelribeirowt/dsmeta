@@ -76,7 +76,7 @@ function salesCard() {
 
                                 <tr key={sale.id}>
                                     <td className="show992">#{sale.id}</td>
-                                    <td className="show576">{new Date (sale.date).toLocaleString()}</td>
+                                    <td className="show576">{new Date (sale.date).toLocaleString().slice(0, 10)}</td>
                                     <td>{sale.sellerName}</td>
                                     <td className="show992">{sale.visited}</td>
                                     <td className="show992">{sale.deals}</td>
